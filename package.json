@@ -1,9 +1,10 @@
 {
-  "name": "m1sh-currency-converter",
-  "version": "1.0.0",
-  "description": "a currency converter ",
+  "name": "m1sh-currency-converter-app",
+  "version": "1.0.2",
+  "description": "currency converter ",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

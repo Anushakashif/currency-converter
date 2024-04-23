@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import inquirer from "inquirer";
 import chalk from "chalk";
 
@@ -25,7 +27,7 @@ let userAns = await inquirer.prompt([
         name: "fromCurrency",
         type: "list",
         message: "Select the currency to convert from:",
-        choices: [,"USD", "AED", "AUD", "CAD","CNY", "CHF", "EUR", "GBP", "IDR","INR", "JYP", "KWD", "OMR", "PKR", "TRY",]
+        choices: ["USD", "AED", "AUD", "CAD","CNY", "CHF", "EUR", "GBP", "IDR","INR", "JYP", "KWD", "OMR", "PKR", "TRY"]
     },
     { 
         name: "toCurrency",
